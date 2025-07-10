@@ -4,6 +4,16 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;     /* rend la photo ronde */
+    object-fit: cover;      /* recadre joliment l’image */
+    display: block;
+    margin: 0 auto 1em auto; /* centre l’image et ajoute un espace en bas */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* légère ombre portée */
+  }
+  
   
   body {
     font-family: 'Inter', sans-serif;
